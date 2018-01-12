@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">U MAD?</string>
+    <string name="question">U Mad? How Mad?</string>
+    <string name="button1">Kinda</string>
+    <string name="button2">Pretty</string>
+    <string name="button3">Very</string>
+    <string name="button4">Furious</string>
+    <string name="button5">5</string>
+    <string name="shakeIt">SHAKE! SHAKE! SHAKE!</string>
+</resources>
