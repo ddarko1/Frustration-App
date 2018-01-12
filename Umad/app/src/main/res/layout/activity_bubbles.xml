@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context="com.umad.umad.Bubbles">
+
+    <Button
+        android:id="@+id/balloon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_circle"
+        android:layout_marginEnd="42dp"
+        android:layout_above="@+id/balloon3"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/balloon2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_circle1"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/balloon3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_circle2"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/balloon2" />
+
+    <Button
+        android:id="@+id/balloon4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="86dp"
+        android:background="@drawable/button_circle3"
+        android:layout_below="@+id/balloon"
+        android:layout_alignStart="@+id/balloon" />
+
+    <Button
+        android:id="@+id/balloon5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_circle4"
+        android:layout_alignEnd="@+id/balloon3"
+        android:layout_below="@+id/balloon4" />
+</RelativeLayout>
+

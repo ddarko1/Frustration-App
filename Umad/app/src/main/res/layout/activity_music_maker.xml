@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#654765"
+    tools:context="com.umad.umad.MusicMaker">
+
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@id/button2"
+        android:layout_above="@id/button5"
+        android:background="@drawable/dog" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_above="@id/button5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/lamb"/>
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/button2"
+        android:layout_above="@id/button5"
+        android:background="@drawable/duck" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@id/button5"
+        android:layout_centerVertical="true"
+        android:background="@drawable/cow2" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pig" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/button5"
+        android:layout_centerVertical="true"
+        android:background="@drawable/owl"/>
+
+    <ImageButton
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/button4"
+        android:layout_toLeftOf="@id/button8"
+        android:background="@drawable/rooster"/>
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/button5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/crow"/>
+
+    <ImageButton
+        android:id="@+id/button9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/button5"
+        android:layout_toRightOf="@id/button8"
+        android:background="@drawable/cat"/>
+
+</RelativeLayout>
